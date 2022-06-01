@@ -2,7 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "ES6",
-    "module": "ES6",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
@@ -18,10 +18,11 @@
     //"strict": true, //严格模式
     "declaration": true, //生成声明文件
     //"allowJs": true,
+    "types": [ "node"],
     "lib": [ "es6" ],
     "outDir": "./lib",
     "baseUrl": "./src"
   },
   "include": [ "src", "package.json" ], // 需要编译的 ts 文件，这里设置为 src 目录下的所有文件
-  "exclude": [ "node_modules", "lib"]
+  "exclude": [ "node_modules", "lib", "config.json" ]
 }
