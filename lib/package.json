@@ -1,0 +1,27 @@
+{
+    "name": "gittest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/src/index.js",
+    "types": "./lib/src/index.d.ts",
+    "scripts": {
+        "build": "tsc --project ./"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^4.7.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SunKnightTECH/gittest.git"
+    },
+    "keywords": [
+        "git"
+    ],
+    "author": "harry",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SunKnightTECH/gittest/issues"
+    },
+    "homepage": "https://github.com/SunKnightTECH/gittest#readme"
+}
